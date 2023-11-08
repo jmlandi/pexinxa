@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.2s ease-out;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+/****************** NAV BAR ******************/
+
+#main_nav {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #040225;
+    height: 65px;
+    box-shadow: 1px 23px 39px 6px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 1px 23px 39px 6px rgba(0,0,0,0.14);
+    -moz-box-shadow: 1px 23px 39px 6px rgba(0,0,0,0.14);
+}
+
+#main_nav a img {
+    margin-top: 18px;
+}
+
+.left_nav_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+.left_nav_items > * {
+    font-size: 1.15rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.left_nav_items a img {
+    margin-top: 18px;
+}
+
+.left_nav_items a:hover {
+    color: #a5a5a5;
+}
+
+.nav_selected {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #fff;
+}
+
+.nav_selected:hover {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #a5a5a5;
+}
+
+/****************** FOOTER ******************/
+
+#main_footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #040225;
+    color: #fff;
+    padding: 4px;
+    font-size: 0.75rem;
+}
