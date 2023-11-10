@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@700&display=swap');
+
+.container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+
+
+
+}
+
+.content {
+    color: #221d1d;
+    text-align: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+
+}
+
+.container strong {
+    font-weight: 1000;
+    font-size: 45px;
+
+}
+
+.main {
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 80px;
+    box-shadow: 0px 4px 22px 8px rgba(0, 0, 0, 0.10);
+    overflow: auto;
+    display:flex;
+    max-height: 80%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+
+}
+
+.cadastro {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: right;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    
+    
+    
+   
+}
+
+.login {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: left;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    z-index: 5;
+    
+    
+    
+    
+
+
+}
+
+input {
+    
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    border-bottom: solid 2px;
+    
+
+    
+   
+}
+.linha{
+    border:solid #00001c;
+}
+
+#Cadastra-se{
+    text-align: right;
+    padding-right: 3%;
+    padding-bottom: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    padding-top: 5%;
+}
+
+#login_title{
+    text-align: left;
+    padding-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 5%;
+}
+
+
+
+#botao_cadastro{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    margin-right: 2%;
+    border-radius: 88px;
+    padding: 10px;
+    margin-top: 2%;
+    background: #8C511B;
+    border: none;
+    color: white;
+}
+
+#botao_login{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 88px;
+    padding: 10px;
+    margin-top: 2%;
+    background: #040225;
+    border: none;
+    color: white;
+    margin-left: 15%;
+}
+
+input:hover{
+    background-color: #040225;
+    color: white;
+    border: solid red;
+    font-size: 20px;
+}
+
+#botao_cadastro:hover{
+    background: #6a3c11;
+    font-size: 20px;
+}
+#botao_login:hover{
+    background:red;
+    font-size: 20px;
+}
+

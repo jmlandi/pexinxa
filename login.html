@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/images/pexinxa_icon.png" type="image/gif">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link href="style.css" rel="stylesheet">
+    <link href="login.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Pexinxa | Login</title>
 </head>
+
 <body>
 
     <!-- Nav Bar Start -->
@@ -22,12 +25,71 @@
         <a href="login.html"><img class="nav_user" src="/images/pexinxa_selected.png" width="60px"></a>
     </nav>
     <!-- Nav Bar End -->
+    <!-- Main Star-->
 
+
+    <div class="container">
+        <h1 class="content"> ENTRE NA <strong>COMUNIDADE</strong></h1>
+    </div>
+    <div class="main">
+
+        <div class="cadastro">
+            <h3 id="Cadastra-se">CADASTRE-SE</h3>
+            <form action="" method="get">
+                <div class="cadastro.name">
+                    <input type="text" id="name" placeholder="nickname">
+                </div>
+                <div class="cadastro.email">
+                    <input type="email" id="cadastro.email-id" placeholder="e-mail">
+                </div>
+                <div class="cadastro.email.confirmed">
+                    <input type="email" id="cadastro.email.confirmed-id" placeholder="confirmar e-mail">
+                </div>
+                <div class="cadastro.senha">
+                    <input type="password" id="senha.cadastro-id" placeholder="senha">
+                </div>
+                <div class="cadastro.confirmar.senha">
+                    <input type="password" id="cadastro.confirmar.senha-id" placeholder="confirmar senha">
+                </div>
+                <button id="botao_cadastro" onclick="cadastrar()">C A D A S T R E - S E</button>
+            </form>
+
+        </div>
+        <div class="linha"> </div>
+        <div class="login">
+            <h3 id="login_title">Faça <strong>Login</strong></h3>
+            <form action="" method="get">
+                <div class="login.nickname">
+                    <input type="text" id="login.nickname-id" placeholder="nickname">
+                </div>
+                <div class="login.senha">
+                    <input type="password" id="login.senha-id" placeholder="senha">
+                </div>
+                <button id="botao_login" onclick="entrar()">Login</button>
+        
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Main End-->
     <!-- Footer Start -->
     <footer id="main_footer">
         Todos os direitos reservados | &copy Pexinxa 2023
     </footer>
     <!-- Footer end -->
+    <!-- Script start -->
+    <script type="text/javascript" src="script.js"></script>
+     <!-- Script end -->
 
 </body>
+
 </html>
