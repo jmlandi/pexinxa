@@ -35,40 +35,47 @@
 
         <div class="cadastro">
             <h3 id="Cadastra-se">CADASTRE-SE</h3>
-            <form action="" method="get">
+            <div id="validacao_cadastro"></div>
+            <form id="form-cadastro" onsubmit="return validar_cadastro()">
                 <div class="cadastro.name">
-                    <input type="text" id="name" placeholder="nickname">
+                    <input type="text" id="name.cadastro-id" placeholder="nickname" required>
                 </div>
                 <div class="cadastro.email">
-                    <input type="email" id="cadastro.email-id" placeholder="e-mail">
+                    <input type="email" id="cadastro.email-id" placeholder="e-mail" required>
                 </div>
                 <div class="cadastro.email.confirmed">
-                    <input type="email" id="cadastro.email.confirmed-id" placeholder="confirmar e-mail">
+                    <input type="email" id="cadastro.email.confirmed-id" placeholder="confirmar e-mail" required>
                 </div>
                 <div class="cadastro.senha">
-                    <input type="password" id="senha.cadastro-id" placeholder="senha">
+                    <input type="password" id="senha.cadastro-id" placeholder="senha" required>
                 </div>
                 <div class="cadastro.confirmar.senha">
-                    <input type="password" id="cadastro.confirmar.senha-id" placeholder="confirmar senha">
+                    <input type="password" id="cadastro.confirmar.senha-id" placeholder="confirmar senha" required>
                 </div>
-                <button id="botao_cadastro" onclick="cadastrar()">C A D A S T R E - S E</button>
+                <div >
+                        <input type="date" id="data_nasc-id" required>
+                </div>
+
+                <button id="botao_cadastro" onclick="validar_cadastro()">C A D A S T R E - S E</button>
+          
             </form>
 
         </div>
         <div class="linha"> </div>
         <div class="login">
             <h3 id="login_title">Faça <strong>Login</strong></h3>
-            <form action="" method="get">
+            <div id="validacao_login"></div>
+            <form id="form_login" onsubmit="return validar_login()">
                 <div class="login.nickname">
-                    <input type="text" id="login.nickname-id" placeholder="nickname">
+                    <input type="text" id="login.nickname-id" placeholder="nickname" required>
                 </div>
                 <div class="login.senha">
-                    <input type="password" id="login.senha-id" placeholder="senha">
+                    <input type="password" id="login.senha-id" placeholder="senha" required>
                 </div>
-                <button id="botao_login" onclick="entrar()">Login</button>
+                <button id="botao_login" onclick="validar_login()">Login</button>
         
             </form>
-
+            <!-- Main END-->
         </div>
     </div>
 
@@ -87,7 +94,7 @@
     </footer>
     <!-- Footer end -->
     <!-- Script start -->
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="login.js"></script>
      <!-- Script end -->
 
 </body>

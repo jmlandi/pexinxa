@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@700&display=swap');
 
+/***********TEXTO INICIAL START *********/
 .container {
     width: 500px;
     margin-left: auto;
@@ -15,34 +16,40 @@
     text-align: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
 
 }
 
 .container strong {
     font-weight: 1000;
-    font-size: 45px;
+    
 
 }
 
+/****************TEXTO INICIAL END *********/
+/****************FORMULARIOS START****************/
 .main {
-    background-color:rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 80px;
     box-shadow: 0px 4px 22px 8px rgba(0, 0, 0, 0.10);
     overflow: auto;
-    display:flex;
-    max-height: 80%;
-    margin-top: 3%;
+    display: flex;
+
+    margin-top: 0.5%;
     margin-left: 5%;
     margin-right: 5%;
-   
+
+
 
 }
 
+/***FORMULARIO CADASTRO STAR ***/
 .cadastro {
     float: left;
     width: 50%;
@@ -51,11 +58,46 @@
     padding-right: 10%;
     padding-bottom: 5%;
     
-    
-    
-   
+
+
+
 }
 
+#Cadastra-se {
+    text-align: right;
+    padding-right: 7.5%;
+    padding-bottom: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    padding-top: 5%;
+    
+}
+
+#botao_cadastro {
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 88px;
+    padding: 0.5rem 4rem;
+    margin-top: 2%;
+    background: #8C511B;
+    border: none;
+    color: white;
+    margin-right: 1.5%;
+    
+}
+
+#botao_cadastro:hover {
+    background: #6a3c11;
+    font-size: 20px;
+}
+
+/***FORMULARIO CADASTRO END ***/
+/***FORMULARIO LOGIN START ***/
 .login {
     float: left;
     width: 50%;
@@ -65,94 +107,91 @@
     padding-bottom: 5%;
     z-index: 5;
     
-    
-    
-    
+
+
+
+
 
 
 }
 
-input {
-    
-    margin: 0.6rem 0;
-    padding: 0.8rem 1.2rem;
-    border: none;
-    border-radius: 10px;
-    border-bottom: solid 2px;
-    
-
-    
-   
-}
-.linha{
-    border:solid #00001c;
-}
-
-#Cadastra-se{
-    text-align: right;
-    padding-right: 3%;
-    padding-bottom: 5%;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    padding-top: 5%;
-}
-
-#login_title{
+#login_title {
     text-align: left;
-    padding-top: 5%;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
     padding-bottom: 5%;
-}
-
-
-
-#botao_cadastro{
+    padding-top: 5%;
+    padding-left: 7.5%;
+   
     
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    margin-right: 2%;
-    border-radius: 88px;
-    padding: 10px;
-    margin-top: 2%;
-    background: #8C511B;
-    border: none;
-    color: white;
 }
 
-#botao_login{
+#botao_login {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     border-radius: 88px;
-    padding: 10px;
     margin-top: 2%;
     background: #040225;
     border: none;
     color: white;
-    margin-left: 15%;
+    margin-left: 1.5%;
+    padding: 0.5rem 7rem;
 }
 
-input:hover{
+#botao_login:hover {
+    background: red;
+    font-size: 20px;
+}
+
+/***FORMULARIO LOGIN END ***/
+input {
+
+    margin: 0.6rem 0;
+    padding: 0.5rem 4rem;
+    border: none;
+    border-radius: 10px;
+    border-bottom: solid 2px;
+    text-align: center;
+    
+
+
+
+
+}
+
+input:hover {
     background-color: #040225;
     color: white;
     border: solid red;
-    font-size: 20px;
+    
 }
 
-#botao_cadastro:hover{
-    background: #6a3c11;
-    font-size: 20px;
-}
-#botao_login:hover{
-    background:red;
-    font-size: 20px;
+.linha {
+    border: solid #00001c;
 }
 
+/****************FORMULARIOS END****************/
+#validacao_cadastro {
+    background-color: red;
+    text-align: center;
+    color: white;
+    border-radius: 0px 0px 20px;
+    
+
+}
+
+#validacao_login {
+    background-color: red;
+    text-align: center;
+    color: white;
+    border-radius: 0px 0px 0px 20px;
+
+}
+
+#data_nasc-id{
+    padding: 0.5rem 5rem;
+}
