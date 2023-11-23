@@ -1,0 +1,66 @@
+/****************** Content SOBRE NÓS ******************/
+
+.container_title{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+.sobrenos_text{
+    font-family: Montserrat;
+    font-size: 6rem;
+    font-weight: 300;
+}
+
+.container_center{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 6rem;
+    border-radius: 150px;
+    box-shadow: 1px 23px 39px 6px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 1px 23px 39px 6px rgba(0,0,0,0.14);
+    -moz-box-shadow: 1px 23px 39px 6px rgba(0,0,0,0.14);
+}
+
+.center_title{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.center_text{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.galeria {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    width: calc(20% - 30px); /* 20% da largura com 10px de espaçamento entre os itens */
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+img {
+    width: 100%; /* Imagem ocupando 100% da largura do item */
+    border-radius: 8px; /* Cantos arredondados da imagem */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+}
