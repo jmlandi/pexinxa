@@ -4,7 +4,7 @@ O Pexinxa é um site dedicado a buscar e oferecer os melhores preços de jogos e
 
 ## Hospedagem ☕️
 
-Projeto hospedado em app.netlify.com. [Acesse nosso site clicando aqui!](https://cheery-selkie-1c2487.netlify.app/)
+Projeto hospedado em app.netlify.com. [Acesse nosso site clicando aqui!](https://pexinxa.netlify.app/)
 
 ## Requisitos e regras de negocio 🖥️
 
