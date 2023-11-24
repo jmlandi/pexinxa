@@ -18,7 +18,7 @@ Para garantir o bom funcionamento da aplicação, foram estabelecidos todos os r
 
 Para uma ideia grandiosa, é essencial que a estética esteja alinhada com o projeto. O design não apenas deve ser funcional, mas também visualmente atraente, proporcionando uma experiência agradável aos usuários. A estética bem trabalhada não apenas aumenta a aceitação do produto, mas também contribui para a percepção positiva da marca. Portanto, é fundamental que a beleza acompanhe o projeto, criando uma sinergia entre a funcionalidade e o apelo visual para garantir o sucesso global da ideia.
 
-[Veja nosso protótipo clicando aqui.](https://www.figma.com/file/OZpzEa5PF0TumUeuCrcXfG/PEXINXA-DESKTOP?type=design&node-id=0%3A1&mode=design&t=iqvHZ9dFQHRPKMWy-1)
+[Veja nosso protótipo clicando aqui.](https://www.figma.com/proto/OZpzEa5PF0TumUeuCrcXfG/PEXINXA-DESKTOP?type=design&node-id=2-45&t=YQwIIYCuRioyXrhU-1&scaling=min-zoom&page-id=0%3A1&mode=design)
 
 ## Tecnologias 🤖
 
