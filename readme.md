@@ -2,9 +2,9 @@
 
 O Pexinxa é um site dedicado a buscar e oferecer os melhores preços de jogos em todas as plataformas gamer. Com uma interface intuitiva, os usuários podem pesquisar e comparar preços, encontrando ofertas e promoções exclusivas. O Pexinxa visa proporcionar uma experiência de compra econômica e conveniente, ajudando os gamers a economizar dinheiro em seus jogos favoritos. Além disso, o site pode fornecer avaliações e classificações de usuários para ajudar na tomada de decisões informada. Este serviço visa ser uma referência confiável para os entusiastas de jogos em busca das melhores ofertas.
 
-## Hospetagem ☕️
+## Hospedagem ☕️
 
-Link da plataforma #####
+Link da plataforma [#####](https://cheery-selkie-1c2487.netlify.app/)
 
 ## Requisitos e regras de negocio 🖥️
 
@@ -28,8 +28,8 @@ As tecnologias utilizadas para transformar esse sonho em realidade foram Figma, 
 ## Colaboradores 🪛
 
 Por trás de grandes projetos, há grandes nomes:
-Pedro: Desenvolvedor https://github.com/Akcio23,
-Otávio: Desenvolvedor https://github.com/OtavioColimo,
-João Marcos: Desenvolvedor https://github.com/jmlandi,
-Michael: Designer https://github.com/mikebenedito,
-Vinicius: Analista de Requisitos https://github.com/ViniciusNC.
+### Pedro: Desenvolvedor https://github.com/Akcio23,
+### Otávio: Desenvolvedor https://github.com/OtavioColimo,
+### João Marcos: Desenvolvedor https://github.com/jmlandi,
+### Michael: Designer https://github.com/mikebenedito,
+### Vinicius: Analista de Requisitos https://github.com/ViniciusNC.
