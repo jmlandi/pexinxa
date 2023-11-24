@@ -1,19 +1,19 @@
 /****************** Content SOBRE NÓS ******************/
 
-.container_title{
+.container_title {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
-    margin-bottom: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
-.sobrenos_text{
+.sobrenos_text {
     font-family: Montserrat;
-    font-size: 6rem;
+    font-size: 3rem;
     font-weight: 300;
 }
 
-.container_center{
+.container_center {
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding-left: 4rem;
@@ -27,19 +27,19 @@
     -moz-box-shadow: 1px 23px 39px 6px rgba(0,0,0,0.14);
 }
 
-.center_title{
+.center_title {
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-family: Montserrat;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 300;
 }
 
-.center_text{
+.center_text {
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-family: Montserrat;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 300;
 }
 
@@ -59,8 +59,17 @@
     font-weight: 700;
 }
 
-img {
+.item img {
     width: 100%; /* Imagem ocupando 100% da largura do item */
     border-radius: 8px; /* Cantos arredondados da imagem */
     margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+}
+
+.item a {
+    color: #342dbd;
+    text-decoration: none;
+}
+
+.item a:hover {
+    text-decoration: underline;
 }

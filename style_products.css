@@ -1,0 +1,135 @@
+/****************** PRODUCTS ******************/
+
+#body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+#product_page_title {
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+    font-size: 6rem;
+}
+
+#product_page_title_favoritos {
+    text-align: center;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+    font-size: 6rem;
+}
+
+#products {
+    width: 100%;
+    padding: 6rem 0rem;
+    border-radius: 10.8125rem 10.8125rem 0rem 0rem;
+    background: rgba(241, 241, 241, 0.50);
+    box-shadow: 0px 4px 22px 8px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.product {
+    margin: 30px 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_cover {
+    opacity: 0.80;
+    border-radius: 45px;
+    box-shadow: 8px -6px 26px 2px rgba(0, 0, 0, 0.20); 
+}
+
+.product_cover:hover {
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: 8px -6px 30px 3px rgba(0, 0, 0, 0.30);
+}
+
+.product_title {
+    margin: 0.75rem;
+    font-size: 2rem;
+}
+
+.product_price1 {
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+
+.product_price2 {
+    font-size: 1.3rem;
+    color: red;
+}
+
+#product_nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_nav_circle {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 2rem 0.5rem 0rem 0.5rem;
+    border-radius: 999px;
+    border: 1.5px solid #000000;
+    opacity: 0.5;
+}
+
+.product_nav_circle:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.product_nav_circle_selected {
+    background-color: #000000;
+}
+
+/****************** FILTER ******************/
+
+#filter {
+    width: 100%;
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#filter_title {
+    padding: 2rem;
+    font-size: 3rem;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+#filter_categories {
+    display: flex;
+    width: 80%;
+    margin: 2.5rem 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.filter_category {
+    opacity: 0.5;
+}
+
+.filter_category:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.filter_category_selected {
+    opacity: 1;
+    border-bottom: 1px solid #000;
+}

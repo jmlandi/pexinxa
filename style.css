@@ -7,10 +7,15 @@
     color: black;
     font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
     transition: all 0.2s ease-out;
+    font-weight: 200;
 }
 
 body {
     background-color: #f0f0f0;
+}
+
+strong {
+    font-weight: 900;
 }
 
 /****************** NAV BAR ******************/
@@ -25,6 +30,7 @@ body {
     box-shadow: 1px 23px 39px 6px rgba(0,0,0,0.14);
     -webkit-box-shadow: 1px 23px 39px 6px rgba(0,0,0,0.14);
     -moz-box-shadow: 1px 23px 39px 6px rgba(0,0,0,0.14);
+    padding: 0px 15px;
 }
 
 #main_nav a img {
