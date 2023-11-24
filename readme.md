@@ -4,7 +4,7 @@ O Pexinxa é um site dedicado a buscar e oferecer os melhores preços de jogos e
 
 ## Hospedagem ☕️
 
-Link da plataforma [#####](https://cheery-selkie-1c2487.netlify.app/)
+Projeto hospedado app.netlify.com [Acesse nosso site clicando aqui!](https://cheery-selkie-1c2487.netlify.app/)
 
 ## Requisitos e regras de negocio 🖥️
 
@@ -28,8 +28,8 @@ As tecnologias utilizadas para transformar esse sonho em realidade foram Figma, 
 ## Colaboradores 🪛
 
 Por trás de grandes projetos, há grandes nomes:
-### Pedro: Desenvolvedor https://github.com/Akcio23,
-### Otávio: Desenvolvedor https://github.com/OtavioColimo,
-### João Marcos: Desenvolvedor https://github.com/jmlandi,
-### Michael: Designer https://github.com/mikebenedito,
-### Vinicius: Analista de Requisitos https://github.com/ViniciusNC.
+### Pedro | Desenvolvedor https://github.com/Akcio23
+### Otávio | Desenvolvedor https://github.com/OtavioColimo
+### João Marcos | Desenvolvedor https://github.com/jmlandi
+### Michael | Designer https://github.com/mikebenedito
+### Vinicius | Analista de Requisitos https://github.com/ViniciusNC
