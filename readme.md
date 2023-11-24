@@ -30,6 +30,6 @@ As tecnologias utilizadas para transformar esse sonho em realidade foram Figma, 
 Por trás de grandes projetos, há grandes nomes:
 ### Pedro | Desenvolvedor https://github.com/Akcio23
 ### Otávio | Desenvolvedor https://github.com/OtavioColimo
-### João Marcos | Desenvolvedor https://github.com/jmlandi
+### Landi | Desenvolvedor https://github.com/jmlandi
 ### Michael | Designer https://github.com/mikebenedito
 ### Vinicius | Analista de Requisitos https://github.com/ViniciusNC
