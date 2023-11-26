@@ -2,6 +2,8 @@
 
 O Pexinxa é um site dedicado a buscar e oferecer os melhores preços de jogos em todas as plataformas gamer. Com uma interface intuitiva, os usuários podem pesquisar e comparar preços, encontrando ofertas e promoções exclusivas. O Pexinxa visa proporcionar uma experiência de compra econômica e conveniente, ajudando os gamers a economizar dinheiro em seus jogos favoritos. Além disso, o site pode fornecer avaliações e classificações de usuários para ajudar na tomada de decisões informada. Este serviço visa ser uma referência confiável para os entusiastas de jogos em busca das melhores ofertas.
 
+[Acesse nosso vídeo sobre o projeto clicando aqui!](https://youtu.be/lwW0m_KWYtQ)
+
 ## Hospedagem ☕️
 
 Projeto hospedado em app.netlify.com. [Acesse nosso site clicando aqui!](https://pexinxa.netlify.app/)
